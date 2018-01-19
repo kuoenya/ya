@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    css -> bootstrap
+    js -> juqery
+    php
+    
+</head>
+<body>
+    <div id="big" style="">
+
+        <div class="big2" style="width:20%;height:50px;background-color:#fff;">
+
+        </div>
+        <div class="big2" style="width:20%;height:50px;background-color:#fff;">
+
+        </div>
+        <span>
+
+        </span>
+        <h1>are you ok</h1>
+        <p>here</p>
+        <ol>
+            <li>first:like</li>
+            <li>second:unlike</li>
+            <div id="menu">
+                
+                  <ul>
+                
+                  <li class="menudeco"></li>
+                
+                  <li><a href="#">部落格</a></li>
+                
+                  <li class="menudeco"></li>
+                
+                  <li><a href="#">相簿</a></li>
+                
+                  <li class="menudeco"></li>
+                
+                  <li><a href="#">留言板</a></li>
+                
+                  <li class="menudeco"></li>
+                
+                  <li><a href="#">名片</a></li>
+                
+                  <li class="menudeco"></li>
+                
+                  </ul>
+                
+                </div>
+
+        </ul>
+        <a href="logo.png" target="_blank" title="click it">
+        <img src="logo.png" width="10%" height="30%">
+      
+
+    </div>
+
+
+
+
+    
+</body>
+<script>
+    /**
+    alert('Hello :)');
+    document.write("This is me!<br>");
+    document.write("Enya")
+
+    var num = 60
+    var thefee = 30;
+    var total = num+thefee;
+    console.log(total);
+
+    var str1 = 'hello!';
+    var str2 = 'how is there?';
+    var strtotal = str1+str2;
+    console.log(strtotal)
+
+    var num = 10;
+    var str = 'ok';
+    console.log(num+str)
+**/
+
+
+total(50,20,1);
+total(30,20,2);
+total(100,15,3)
+function total(num,thefee,cu){
+
+    var total=num+thefee;
+    console.log('第'+cu+'位客人'+total);
+    
+}
+var c = {
+    "number": "1020501",
+    "name": "小傑",
+    "age": 32,
+    "sex": "M",
+    "sex1": "M",
+    "sex2": "M",
+    "sex3": "M",
+    "sex4": "M",
+    "sex5": "M",
+    "sex6": "M",
+    "sex7": "M",
+    "sex8": "M",
+    "sex9": "M",
+    "sex10": "M",
+    "interest": [
+        "網頁設計",
+        "撰寫文章"
+    ]
+};
+alert(c);
+console.log(c );
+
+    </script>
+</html>
